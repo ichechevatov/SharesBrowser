@@ -1,0 +1,6 @@
+framework module Pods_SharesBrowser {
+  umbrella header "Pods-SharesBrowser-umbrella.h"
+
+  export *
+  module * { export * }
+}

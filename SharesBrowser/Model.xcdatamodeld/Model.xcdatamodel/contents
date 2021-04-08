@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17511" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CompanyProfil" representedClassName=".CompanyProfil" syncable="YES">
+        <attribute name="companyName" attributeType="String"/>
+        <attribute name="country" attributeType="String"/>
+        <attribute name="currensy" attributeType="String"/>
+        <attribute name="exchange" attributeType="String"/>
+        <attribute name="ipoDate" attributeType="String"/>
+        <attribute name="logoData" optional="YES" attributeType="Binary"/>
+        <attribute name="logoUrl" attributeType="String"/>
+        <attribute name="tiker" attributeType="String"/>
+        <attribute name="webUrl" attributeType="String"/>
+        <relationship name="symbol" maxCount="1" deletionRule="Nullify" destinationEntity="Symbol" inverseName="companyProfil" inverseEntity="Symbol"/>
+    </entity>
+    <entity name="Price" representedClassName=".Price" syncable="YES">
+        <attribute name="currentPrice" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="openPriceOfTheDay" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="symbol" maxCount="1" deletionRule="Nullify" destinationEntity="Symbol" inverseName="price" inverseEntity="Symbol"/>
+    </entity>
+    <entity name="Symbol" representedClassName=".Symbol" syncable="YES">
+        <attribute name="symbol" attributeType="String"/>
+        <relationship name="companyProfil" maxCount="1" deletionRule="Nullify" destinationEntity="CompanyProfil" inverseName="symbol" inverseEntity="CompanyProfil"/>
+        <relationship name="price" maxCount="1" deletionRule="Nullify" destinationEntity="Price" inverseName="symbol" inverseEntity="Price"/>
+    </entity>
+    <elements>
+        <element name="CompanyProfil" positionX="-387.140625" positionY="161.0234375" width="128" height="193"/>
+        <element name="Price" positionX="222.28125" positionY="233.19140625" width="128" height="88"/>
+        <element name="Symbol" positionX="-36" positionY="45" width="128" height="88"/>
+    </elements>
+</model>

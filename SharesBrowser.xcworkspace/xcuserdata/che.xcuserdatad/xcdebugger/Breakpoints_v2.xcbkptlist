@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "65803446-8953-44D6-9FAF-AB7549B6C0B9"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A7E1F9EB-E3F8-4AD4-BAB1-6AF1A3A47EE0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SharesBrowser/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "getProfilCompanyFor(symbol:callback:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6A63DAD7-D546-4042-9A55-F84E144249C9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SharesBrowser/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "getProfilCompanyFor(symbol:callback:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6A63DAD7-D546-4042-9A55-F84E144249C9 - 25c38ba721a96d2c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in SharesBrowser.NetworkServiceImplimentation.getProfilCompanyFor(symbol: Swift.String, callback: ((name: Swift.String, tiker: Swift.String, currency: Swift.String, logoUrl: Swift.String, webUrl: Swift.String, ipoDate: Swift.String, exchange: Swift.String, country: Swift.String, error: Swift.String)) -&gt; ()) -&gt; ()"
+                  moduleName = "SharesBrowser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/che/Desktop/ios/SharesBrowser/SharesBrowser/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "302">
+               </Location>
+               <Location
+                  uuid = "6A63DAD7-D546-4042-9A55-F84E144249C9 - 25c38ba721a96d2c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in SharesBrowser.NetworkServiceImplimentation.getProfilCompanyFor(symbol: Swift.String, callback: ((name: Swift.String, tiker: Swift.String, currency: Swift.String, logoUrl: Swift.String, webUrl: Swift.String, ipoDate: Swift.String, exchange: Swift.String, country: Swift.String, error: Swift.String)) -&gt; ()) -&gt; ()"
+                  moduleName = "SharesBrowser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/che/Desktop/ios/SharesBrowser/SharesBrowser/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "340">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D40A5F06-B50C-4D57-A8B4-80C393319A69"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SharesBrowser/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "getSharePriceFor(ticker:callback:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "69A68204-2CBB-4406-B7DB-CC48FBEE6457"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SharesBrowser/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "getSharePriceFor(ticker:callback:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "69A68204-2CBB-4406-B7DB-CC48FBEE6457 - c6c8493c6edb7915"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in SharesBrowser.NetworkServiceImplimentation.getSharePriceFor(ticker: Swift.String, callback: ((openPriceOfTheDay: Swift.Double, currentPrice: Swift.Double)) -&gt; ()) -&gt; ()"
+                  moduleName = "SharesBrowser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/che/Desktop/ios/SharesBrowser/SharesBrowser/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "840">
+               </Location>
+               <Location
+                  uuid = "69A68204-2CBB-4406-B7DB-CC48FBEE6457 - c6c8493c6edb7915"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in SharesBrowser.NetworkServiceImplimentation.getSharePriceFor(ticker: Swift.String, callback: ((openPriceOfTheDay: Swift.Double, currentPrice: Swift.Double)) -&gt; ()) -&gt; ()"
+                  moduleName = "SharesBrowser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/che/Desktop/ios/SharesBrowser/SharesBrowser/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "878">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "10ACEBBA-DE5F-4B43-AE8D-8AD8D4E05E9B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SharesBrowser/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "getSharesSymbols(callback:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A830D311-DBFF-4F86-AC49-33F00D1E5C4C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SharesBrowser/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "getSharesSymbols(callback:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "091C14BC-8487-4C7B-8BE1-7BD2C11710E7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SharesBrowser/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "getProfilCompanyFor(symbol:callback:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FCDC8A09-6D8F-4C6C-BD5C-5131C29A3F29"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SharesBrowser/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "getSharePriceFor(ticker:callback:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DC9C6F85-9AC2-4079-8833-37E37093D9BF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SharesBrowser/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "getLogoImageFor(logoUrl:callback:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
